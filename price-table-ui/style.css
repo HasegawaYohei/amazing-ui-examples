@@ -121,7 +121,7 @@ section {
   margin: 20px auto 0;
   font-size: 16px;
   cursor: pointer;
-  bxo-shadow: 0 5px 10px;
+  box-shadow: 0 5px 10px;
 }
 
 .card a:hover {
