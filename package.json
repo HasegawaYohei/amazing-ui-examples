@@ -1,0 +1,11 @@
+{
+  "name": "awesome-ui-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/HasegawaYohei/awesome-ui-examples.git",
+  "author": "Hasegawa Yohei <yoheybrains@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
