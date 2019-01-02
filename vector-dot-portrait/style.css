@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+}
+
+.portrait {
+  position: relative;
+}
+
+.portrait span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  float: left;
+  background: url(img.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  filter: blur(1px);
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
