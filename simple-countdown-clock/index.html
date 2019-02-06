@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-enquiv="X-UA-Compatible" content="ie=edge">
+  <title>Countdown</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="center">
+    <!--
+    <h1><span>The Final Recital</span><br>Let You Free</h1>
+    -->
+    <div id="clock"></div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="./jquery.countdown.min.js"></script>
+  <script>
+    $('#clock').countdown('2019/2/7 14:45:00', function(event) {
+      const $this = $(this).html(event.strftime(''
+        + '<div><span>%d</span><span>Days</span></div>'
+        + '<div><span>%H</span><span>Hour</span></div>'
+        + '<div><span>%M</span><span>Min</span></div>'
+        + '<div><span>%S</span><span>Sec</span></div>'
+      ));
+    });
+  </script>
+</body>
+</html>
